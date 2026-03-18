@@ -1,4 +1,4 @@
-.PHONY: create-structure
+.PHONY: create-structure test-pytest
 
 
 create-structure:
@@ -9,3 +9,6 @@ create-structure:
     touch requirements.txt
     touch setup.py
     touch README.md
+
+test-pytest:
+    pythes
